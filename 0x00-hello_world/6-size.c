@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: using the sizeof to print the size of various types
+ * main - Prints the sizof many var types
  * 
- * Return: Always 0 (Successful)
+ * Return: Always 0 (Success)
+ *
  */
-
-
+ 
 int main(void)
 
 {
