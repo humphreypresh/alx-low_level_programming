@@ -1,13 +1,16 @@
-#insert <stdio.h>
+#include <stdio.h>
 
 /**
- * main - Print the sizeof many var types
+ * main - Entry point
  *
- * Description: using the main function
- * this program prints "Programming is like building a multilingual puzzle
- * Return: Always 0 (Success)
+ * Description: using the sizeof to print the size of various types
+ * 
+ * Return: Always 0 (Successful)
  */
+
+
 int main(void)
+
 {
 	char a;
 	int b;
