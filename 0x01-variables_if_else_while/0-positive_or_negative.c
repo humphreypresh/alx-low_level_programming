@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - print if the number is positive, zero or negative
- * Description: using the main function
- * this program prints "Programming is positive, zero or negative
- * Returns: 0
+ * main - Entry point
+ *
+ * Description: print value of n status; zero, positive or negative
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
