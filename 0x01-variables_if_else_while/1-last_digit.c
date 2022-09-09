@@ -3,31 +3,30 @@
 #include <stdio.h>
 
 /**
- * main - print if the number is positive, zero or negative
- * 
+ * main - print if the number is positive, zero or negative 
  * Description: using the main function
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int n, digit;
+int n;
 
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-digit = n % 10;
 
-if (digit > 0)
+
+if (n > 0)
 {
-	printf("last digit of %i is %i and is greater than 0\n", n, digit);
+	printf("%d is positive\n", n);
 }
-else if (digit == 0)
+else if (n == 0)
 {
-	printf("last digit of %i is %i and is 0\n", n, digit);
+	printf("%d is zero\n", n);
 }
 else
 {
-	printf("last digit of %d is %d and is less than 6 and not 0\n", n, digit);
+	printf("%d is negative\n", n);
 }
 return (0);
 }
