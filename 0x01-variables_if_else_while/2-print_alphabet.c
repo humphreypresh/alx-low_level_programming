@@ -1,20 +1,21 @@
 #include <stdio.h>
+
 /**
- * main - print if the number is positive, zero oe negative
- * Description: using the main function
+ * main - Entry point
+ * Description: print all alphabet letters
  * Return: 0
  */
+
 int main(void)
 {
-	
-
 	char ch = 'a';
-	while (ch <= 'z')
 
+	while (ch <= 'z')
 	{
-putchar(ch);
-++ch;
-}
-putchar('\n');
-return (0);
+		putchar(ch);
+		++ch;
+	}
+	putchar('\n');
+
+	return (0);
 }
