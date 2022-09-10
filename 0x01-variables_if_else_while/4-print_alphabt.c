@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: prints all alphabets in lowercase except q and e
+ * main - print all alphabets in lowercase except q and e
+ * Description: using the main function
  * Return: 0
  */
-
 int main(void)
 {
 	char ch = 'a';
@@ -19,4 +18,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}	
+}
