@@ -4,7 +4,7 @@
  * @n: takes number input
  * Result: lastDigit
  */
-int _print_last_digit(int n)
+int print_last_digit(int n)
 {
 	int lastDigit;
 
