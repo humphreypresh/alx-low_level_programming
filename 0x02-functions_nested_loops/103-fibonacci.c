@@ -3,7 +3,7 @@
  * main - Entry point
  * Description: prits the sum of even fibonacci
  * sequence not more than 4million
- * Retun: 0
+ * Return: 0
  */
 int main(void)
 {
