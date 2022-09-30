@@ -1,13 +1,38 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
- * _print_rev_recursion - This reverses a string literal
- * @s: String literal
- * Return: void.
+ * is_palindrome - returns the 1 if s is a palindrome
+ * @s: string to be checked
+ *
+ * Return: 1 if s is a palindrome, 0 otherwise
  */
 
-void _print_rev_recursion(char *s)
+int is_palindrome(char *s)
 {
-	if (*s)
-		_print_rev_recursion(s + 1), _putchar(*s);
+	int i,c=0,n;
+	n=strlen(s);
+	for(i=0;i<n/2;i++)
+	{
+		if(s[i]==s[n-i-1])
+			c++;
+	}
+	if(c==i)
+		return 1;
+	else
+		return 0;
+}
+
+int main()
+{
+	char s[1000];
+
+	printf("Enter  the string: ");
+	
+
+	if(is_palindrome(s))
+		printf("string is palindrome");
+	else
+		printf("string is not palindrome");
 }
