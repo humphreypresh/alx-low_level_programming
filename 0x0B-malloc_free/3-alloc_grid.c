@@ -9,7 +9,6 @@
  *
  * Return: NULL on faliure
 */
-
 int **alloc_grid(int width, int height)
 {
 	int **grid, i, j;
