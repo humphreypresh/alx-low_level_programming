@@ -1,6 +1,8 @@
 #include <stdlib.h>
 
 /**
+ * str_concat - a function that concatenates two strings.
+ *
  * @s1: input to string 1
  * @s2: input to string 2
  *
@@ -22,6 +24,7 @@ char *str_concat(char *s1, char *s2)
 	while (s1[a] != '\0')
 		a++;
 	while (s2[b] != '\0')
+		b++;
 
 		/*+1 for our end of string character*/
 		s = malloc((a * sizeof(char)) + ((b + 1) * sizeof(char)));
