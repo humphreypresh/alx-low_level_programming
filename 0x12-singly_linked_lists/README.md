@@ -1,9 +1,5 @@
 
 
-You have a captain's log due before 2022-11-20 (in 3 days)! Log it now!
-
-You just released the advanced tasks of this project. Have fun!
-
 0x12. C - Singly linked lists
 
 C
@@ -16,9 +12,6 @@ Data structure
 
  Weight: 1
 
- Project over - took place from Oct 20, 2022 6:00 AM to Oct 21, 2022 6:00 AM
-
- An auto review will be launched at the deadline
 
 In a nutshell…
 
@@ -144,9 +137,7 @@ typedef struct list_s
 
 } list_t;
 
-Quiz questions
 
-Great! You've completed the quiz successfully! Keep going! (Show quiz)
 
 Tasks
 
@@ -154,7 +145,6 @@ Tasks
 
 mandatory
 
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a function that prints all the elements of a list_t list.
 
@@ -288,7 +278,6 @@ File: 0-print_list.c
 
 mandatory
 
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a function that returns the number of elements in a linked list_t list.
 
@@ -390,7 +379,6 @@ File: 1-list_len.c
 
 mandatory
 
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a function that adds a new node at the beginning of a list_t list.
 
@@ -576,7 +564,6 @@ File: 2-add_node.c
 
 mandatory
 
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a function that adds a new node at the end of a list_t list.
 
@@ -762,7 +749,6 @@ File: 3-add_node_end.c
 
 mandatory
 
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a function that frees a list_t list.
 
@@ -948,7 +934,6 @@ File: 100-first.c
 
 #advanced
 
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a 64-bit program in assembly that prints Hello, Holberton, followed by a new line.
 
